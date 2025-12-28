@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Task-Management
+
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//localhost:1521/XEPDB1
+    username: TaskDB
+    password: TaskDB123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+token:
+  secret: VGhpc0lzQVNlY3JldEtleU1htesta2VJdEJhc2U2NEFuZEtlZXBJdFNlY3VyZSE
+  time: 10m
+
